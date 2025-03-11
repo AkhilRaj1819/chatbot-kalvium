@@ -10,6 +10,7 @@
     "nlp": "^0.0.0",
     "node-fetch": "^3.3.2",
     "simple-spellchecker": "^1.0.2",
-    "twit": "^1.1.20"
+    "twit": "^1.1.20",
+    "uuid": "^11.1.0"
   }
 }

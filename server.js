@@ -99,7 +99,7 @@ app.post('/chat', async (req, res) => {
         if (!userId) {
             userId = uuidv4();
             console.log(`✨ New user ID generated: ${userId}`);
-            res.setHeader('X-User-ID', userId);
+            res.setHeader('X-User-ID', userId); // Set the header here when user id is created.
         }
 
         console.log(`📩 Chat request from ${userId}:`, userInput);
